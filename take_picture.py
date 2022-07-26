@@ -3,7 +3,7 @@ import numpy as np
 
 def take_picture():
     '''
-    Take picture from webcam when pressing ESC key
+    Take picture from webcam when pressing ESC key and returns the frame
     '''
     cv2.namedWindow("preview")
     vc = cv2.VideoCapture(0)

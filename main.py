@@ -7,3 +7,5 @@ frame = take_picture()
 
 imgplot = plt.imshow(frame)
 plt.show()
+
+# Now run facial recognition :)
